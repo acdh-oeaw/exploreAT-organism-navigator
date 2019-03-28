@@ -1,7 +1,9 @@
-# RDF Plants Explorer
+# Organism explorer
 _This project comes from the split of the original [exploreAT-collectionexplorer](https://github.com/acdh-oeaw/exploreAT-collectionexplorer) of [Alex Benito](https://github.com/ale0xb)_
 
 Scientific and Common Plant name explorer based on RDF data and connected to Europeana.
+
+The tool allows the user to search for lemmas or parts of compounds, mostly related to living organisms. It groups findings according to the number of entries containing the search term with related pictures from Europeana. The larger the image displayed the more entries there are for a given term.
 
 ![Prototye screenshot](img/prototype.png "Prototype screenshot")
 
@@ -28,7 +30,7 @@ You can use any static server of your choice to serve the files for the webpage.
 Additionally, [webpack](http://www.dropwizard.io/1.0.2/docs/) may be used for compiling the source code
 and package it into a few files (friendlier with download speed for the webpage).
 
-**This prototype needs for a database _x_**
+**This prototype needs for an ElasticSearch database from which to get RDF data, and an API from which to retrieve data from Europeana and images from Flickr**
 
 ## Authors
 
