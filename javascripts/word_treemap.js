@@ -177,7 +177,7 @@ function createWords(inputString) {
 
                     $.ajax({
                         type: "GET",
-                        url: "/api/flickr/"+name,
+                        url: "https://exploreat-dh-dashboard-server.acdh-dev.oeaw.ac.at/flickr/"+name,
                         dataType: "json",
                         async: true,
                         success: function (response) {
